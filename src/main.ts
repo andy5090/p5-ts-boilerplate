@@ -1,11 +1,12 @@
 import "p5";
 import p5 from "p5";
+import textureUrl from "../texture.png";
 
 let ps;
 let img;
 
 function preload() {
-  img = loadImage("texture.png");
+  img = loadImage(textureUrl);
 }
 
 function setup() {
